@@ -1,5 +1,4 @@
 #include <SoftwareSerial.h>
-#include <Servo.h>
 
 SoftwareSerial bluetoothSerial(0, 1); // RX | TX
 #define MOTOR_LEFT_PWM_PIN 6
