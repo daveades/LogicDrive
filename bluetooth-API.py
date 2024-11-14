@@ -12,7 +12,7 @@ port = 1
 sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
 sock.connect((bd_addr, port))
 
-# Define the commands and conditions
+# Define commands and conditions
 commands = {
     "move forward": "F",
     "turn left": "L",
@@ -23,7 +23,6 @@ commands = {
 conditions = {
     "always": lambda: True,
     "never": lambda: False,
-    # Add more conditions as needed
 }
 
 variables = {}
